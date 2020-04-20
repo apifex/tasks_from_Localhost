@@ -1,0 +1,13 @@
+/* 
+
+utwórz klasy .fadeIn i .fadeOut wg metodologii BEM, które posiadają:
+- modyfilatory --left, --right, --top, --bottom które działają wg reguły
+- fadeIn animuję element od 30% rozmiarów elementu do 100% rozmiaru elementu oraz opacity z 0.4 na 1, skalowanie ma mieć swój origin w centrum elementu
+
+zmiany wg modifykatorów:
+- jeśli jest klasa .fadeIn--left to element pojawia się przez 1 sekundę zza lewej krawędzi ekranu a origin zmienia swój punkt na lewo w poziomie i środek środek w pionie
+-- resztę klas .fadeIn--top, --bottom, --right zrobić analogicznie, ale odpowiednio modyfikując origin oraz pozycję wejściową elementu
+
+- jeśli jest klasa .fadeOut--left to element znika przez 1 sekundę za lewą krawędzą ekranu a origin zmienia swój punkt na lewo w poziomie i środek środek w pionie 
+
+*/

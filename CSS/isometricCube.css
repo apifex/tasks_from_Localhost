@@ -1,0 +1,15 @@
+/* 
+
+stwórz 3 klasy .wall z modyfilatorami gdzie:
+- widzisz tylko 3 ściany kostki pod kątami, które są wielokrotnością kąta 45 stopni
+- każda klasa będzie odpowiadającą modyfikacji ścianą izometrycznej kostki
+- każda ścianka ma być wielkości 250x250px oraz o tle zawierającym inny obrazek
+- wszystkie klasy .wall mają działać wewnątrz elementu o klasie .cube
+*/
+
+.cube{}
+.wall--top{}
+.wall--left{}
+.wall3--right{}
+
+/* google keywords: css transformation, css skew, position absolute */

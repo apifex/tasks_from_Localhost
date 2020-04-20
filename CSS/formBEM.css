@@ -1,0 +1,17 @@
+/* stwórz strukturę styli z losowymi właściwościami wg metodologii BEM
+
+dla formularza, w którym:
+- ma być walidacja inputa pozytywnie lub negatywnie (czerwona/zielona obwódka inputa)
+- każdy input ma mieć modyfikator --active
+- każdy input ma być oddalony od siebie w pionie o 30px
+- każdy input ma być oddalony od bocznych krawędzi formularza o 30px
+- button ma mieć modyfikatory --disabled, --loading
+- .form ma mieć pierwsze dziecko o klasie .loader, który podczas gdy form ma modyfikator --loading zakrywa cały formularz tłem o kolorze rgba(0,0,0,0.4)
+*/
+.form{
+
+}
+/*
+google keywords: css bem
+link: https://css-tricks.com/bem-101/ 
+*/
