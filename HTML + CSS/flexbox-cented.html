@@ -1,13 +1,15 @@
 Wykorzystując poniższy kod stwórz 9 elementową prezentację do zdjęć, 
-w formie siatki 3x3, w której każde zdjęcie jest inne
+w formie siatki 3x3, w której każda komórka zawiera inne zdjęcie
 - środek <li class="cell"> ma się pokrywać z centralnym punktem swojej komórki w siatce
-- każdy z <li class="cell"> ma zawierać zdjęcie różnych wymiarach
+- każdy z <li class="cell"> ma zawierać zdjęcie różnych wymiarach, zajmujących maksymalnie 90% wysokości bądź szerokości komórki
 - element .presentation ma być fixed i zajmować cały ekran
+- po kliknięciu w dowolne zdjęcie, pokazuje się ono w pozycji fixed zajmując 80% wysokości i szerokości
+- kliknięcie w pokazane zdjęcie w fixed powoduje zamknięcie tego fixed
 
 google keywords - flexbox
 
 <div class="presentation">
-<ul class="clock-cells">
+<ul class="cells">
     <li class="cell">
         <img />
     </li>

@@ -1,4 +1,5 @@
-stwórz grida 5x5, w którym umieścisz takie losowe dane o strukturze 
+stwórz grida 5x5, w którym umieścisz takie losowe dane o strukturze gdzie:
+
 
 const post = {
     imageSrc:'adres-url-obrazka',
@@ -10,11 +11,17 @@ każda komórka grida ma odpowiadać jednemu elementowi z danych o podanej struk
 
 komórki mają działać w taki sposób:
 - na on hover komórki powinienem zobaczyć 
--- zdjęcie 1x1 w lewym górnym rogu
+-- zdjęcie 1x1 o wymiarach w lewym górnym rogu
 -- tytuł o rozmiarze 1x1 w prawym górnym rogu
 -- intro o rozmiarze 2x1 w lewym dolnym rogu
+
+Wyjaśnienie rozmiarów:
+- wymiar 1x1 to rozmiar jednej komórki tego grida
+- wymiar 2x2 to rozmiar 4 komórek tego grida
+
+Dodatkowo:
 - na zabraniu kursora z komórki powineniem zobaczyć tylko zdjęcie o wymiarze 1x1 zakrywacjące całą komórkę, przyciemnione do opacity 0.4
-- zmiana wymiarów komórki ma być animowana
+- zmiana wymiarów i opacity komórki ma być animowana
 - każda komórka ma mieć losowo wybrane tło z tej palety kolorów - https://coolors.co/2f4858-33658a-86bbd8-f6ae2d-f26419
 
 Zadanie możesz wykonać w wykorzystując position:absolute lub zmiany wielkości komórki grida

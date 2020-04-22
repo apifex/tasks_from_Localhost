@@ -1,0 +1,32 @@
+stwórz funkcję restylingImportantTexts, która wpłynie na poszczególne elementy DOMu
+<script>
+function restylingImportantTexts(){
+    
+}
+</script>
+
+funkcja ma działać tak:
+- w atrybucie data-regexp są stringi, które w tekscie należy przestylować
+- w atrybucie data-styling jest typ tagu html lub klasa, która odpowiada za ostylowanie znalezienego testu
+
+a całość ma działać tak:
+
+w wyniku której w elemencie zawierającym oba artybuty np:
+<div data-regexp="['test','next']" data-styling="strong">
+Lorem ipsum test lorem ipsum next lorem ipsum
+</div>
+
+html tego elementu zmieniony na:
+<div data-regexp="['test','next']" data-styling="strong">
+Lorem ipsum <strong>test</strong> lorem ipsum  <strong>next</strong> lorem ipsum
+</div>
+
+oraz taka kombinacja:
+<div data-regexp="['test','next']" data-styling=".bold">
+Lorem ipsum test lorem ipsum next lorem ipsum
+</div>
+
+zamienia sie w to:
+<div data-regexp="['test','next']" data-styling=".bold">
+Lorem ipsum <span class="bold">test</span> lorem ipsum  <span class="bold">next</span> lorem ipsum
+</div>
