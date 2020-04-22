@@ -1,0 +1,1 @@
+coś jak scroll observer tylko na window.onresize w .observe callback wzraca aktulane wymiary okna oraz wymiary strony
