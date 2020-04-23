@@ -1,4 +1,4 @@
-# Gruntujące wiedzię zadania z HTML, zaawansowanego CSS i podstaw JS na 160h ciężkiego kodowania
+# Gruntujące wiedzę zadania z HTML, zaawansowanego CSS i podstaw JS na 160h ciężkiego kodowania
 
 ## Hej, miło Cię poznać!
 
