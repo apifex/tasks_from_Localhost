@@ -1,0 +1,5 @@
+/* stwórz skaczącą piłkę do tenisa, która będzie odbijać się naturalnie */
+/* - piłka powinna mieć cieniowanie oraz gradientowaną powierzchnie zgodną ze światłościeniami */
+/* - piłka powinna odkształcać się trochę przy odbiciu */
+/* - piłka powinna rzucać cień przy zbliżaniu się do podłoża */
+.ball{}
