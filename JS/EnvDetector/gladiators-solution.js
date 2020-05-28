@@ -45,8 +45,7 @@ class EnvDetector {
   static getOS() {
     this.checkWindow();
     this.checkNavigator();
-    const userAgent = window.navigator.userAgent,
-      platform = window.navigator.platform,
+    const {userAgent, platform} = window.navigator,
       macosPlatforms = ["Macintosh", "MacIntel", "MacPPC", "Mac68K"],
       windowsPlatforms = ["Win32", "Win64", "Windows", "WinCE"],
       iosPlatforms = ["iPhone", "iPad", "iPod"];
@@ -72,7 +71,7 @@ class EnvDetector {
 
     return os;
   }
-  
+
   static isTouchable() {
     return !!("ontouchstart" in document.documentElement);
   }
