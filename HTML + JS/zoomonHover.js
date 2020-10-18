@@ -8,4 +8,4 @@ function zoomOnHover(){}
     <img />
 </div>
 
-keywords: position absolute, document create element, html element position
+// keywords: position absolute, document create element, html element position
